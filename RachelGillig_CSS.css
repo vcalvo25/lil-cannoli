@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #0C0C0C;
+  font-family: "Amarante", "serif";
+  font-weight: 10px;
+  color: #FFFFFF;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: right;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 40px;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+
+h1 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  display: flex;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
+.hero-img {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ width: 900px;
+}
+
+.hero-subtitle {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+  margin: auto 350px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.excerpt {
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 20px 200px 0px 40px;
+  line-height: 25px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-weight: 100;
+}
+
+.BookCover {
+  max-width: 500px;
+  height: 400px;
+  margin-left: 200px;
+  margin-top: 90px;
+
+}
+
+.quote{
+  text-align: center; 
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #81221E;
+  font-size: 30px;
+}
+
+.spacing {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+#booktok {
+  text-align: center; 
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: #81221E;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+blockquote {
+  padding-bottom: 20px;
+}
+
+.author-img {
+  max-width: 500px;
+  height: 500px;
+  margin-right: 100px;
+  
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 192px;
+  gap: 30px;
+  padding-top: 80px;
+  line-height: 20px;
+  padding-bottom: 80px;
+}
+
+.author {
+  text-align: right;
+  padding-top: 30px;
+  font-weight: 100;
+  margin-left: 210px;
+}
+
+h2 {
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+h3 {
+  transform: translate(500px, 150px);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  font-weight: 100;
+}
+
+.form {
+  transform: translate(530px, 190px);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: "Amarante", "serif";
+  background-color: #FFFFE9 ;
+  padding-left: 5px;
+}
+
+input[type=submit] {
+  font-family: "Amarante", "serif";
+  font-size: 14px;
+  background-color: #B8A353;
+  border: none;
+  border-radius: 2px;
+}
+
+#footer-img {
+  filter: blur(3px);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
